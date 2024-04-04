@@ -1,0 +1,56 @@
+.steppermain{
+    padding: 0 15px;
+ display: flex;
+ justify-content: space-between;   
+}
+.stepperparent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.steppernum{
+    width: 20px;
+    height: 30px;
+    background-color: #3f3c3c;
+    border-radius: 50%;
+   display: flex;
+    justify-content: center;
+align-items: center;
+}
+.active{
+    /* background-attachment: rgb(8, 8, 76); */
+    background-color: rgb(6, 6, 240);
+color: wheat;
+}
+.complete{
+background-color: greenyellow;
+}
+.progressbar{
+    width: 90%;
+    height: 5px;
+    background-color: grey;
+    position: absolute;
+    top:32.2%;
+    left: 60px;
+    z-index: -1;
+}
+.progress{
+    /* width: 100%; */
+    height: 100%;
+    background-color: yellowgreen;
+}
+.next{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+.prev{
+    padding: 10px;
+    margin-left: 500px;
+    margin-top: 35px;
+    text-align: center;
+
+
+}
